@@ -1,0 +1,48 @@
+a {
+  color: #00ABFF;
+  text-decoration: none;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #BBBBBB;
+  font-weight: normal;
+  padding: 0 0 10px 0;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 30px 0 0;
+}
+
+#content {
+  float: left;
+  padding: 0 0 0 30px;
+  width: 60%;
+}
+
+#sidebar {
+  background: #EFEFEF;
+  float: right;
+  height: 100%;
+  padding: 10px;
+  width: 30%;
+}
+
+p.date {
+  color: #CCCCCC;
+  font-family: georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* pagination */
+.pagination {
+  font-weight: bold;
+  margin: 40px 0;
+}
