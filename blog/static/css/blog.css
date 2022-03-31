@@ -67,9 +67,24 @@ input, textarea {
 
 input[type=submit] {
   background: #00ABFF;
-  color: #fff;
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: bold;
   padding: 10px 20px;
   text-transform: uppercase;
+}
+
+/* comments */
+.comment {
+  padding: 10px;
+}
+
+.comment:nth-child(even) {
+  background: #EFEFEF;
+}
+
+.comment .info {
+  color: #666666;
+  font-size: 12px;
+  font-weight: bold;
 }
