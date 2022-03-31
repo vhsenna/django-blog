@@ -1,5 +1,3 @@
-import email
-from unicodedata import name
 from django import forms
 
 class EmailPostForm(forms.Form):
